@@ -1,0 +1,103 @@
+section {
+	margin: 40px 10px 0 10px;
+}
+
+footer {
+	height: initial;
+}
+
+.flex {
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.playertags-container {
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	/* normalize margins after we reduced them for section */
+	margin: 0 30px;
+}
+
+.playertags {
+	max-width: 50%;
+}
+
+.player {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+.bestof {
+	padding: 0 0.2em;
+}
+
+.playername {
+	width: 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0 0.2em;
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+.playername {
+	text-align: center;
+}
+
+.teamname {
+	margin: 14px 0.2em;
+	font-size: 26px;
+	display: inline-block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 225px;
+	vertical-align: middle;
+}
+
+.bg-flag {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	padding: 0 0.1em;
+	vertical-align: middle;
+}
+
+.flag-terran {
+	background-image: url('img/terran.png');
+	background-size: 30px 30px;
+}
+.flag-protoss {
+	background-image: url('img/protoss.png');
+	background-size: 30px 30px;
+}
+.flag-zerg {
+	background-image: url('img/zerg.png');
+	background-size: 30px 30px;
+}
+
+.flag-korea {
+	background-image: url('img/korea.png');
+	background-size: 30px 20px;
+}
+
+.flag-sweden {
+	background-image: url('img/sweden.png');
+	background-size: 30px 19px;
+}
+
+.flag-canada {
+	background-image: url('img/canada.png');
+	background-size: 30px 15px;
+}
+
+.flag-netherlands {
+	background-image: url('img/netherlands.png');
+	background-size: 30px 20px;
+}
